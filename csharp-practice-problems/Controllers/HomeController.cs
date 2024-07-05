@@ -47,6 +47,11 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine("-------------- Remove duplicate characters --------------------");
             removeDuplicates.remDuplicates("csharpcorner");
 
+            //all possible substrings of the string
+            PossibleSubstrings possibleSubstrings = new PossibleSubstrings();
+            Console.WriteLine("--------------- Possible substrings of a string -----------------");
+            possibleSubstrings.PosSubString("abcd");
+
             return View();
         }
 
