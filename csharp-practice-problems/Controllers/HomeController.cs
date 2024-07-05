@@ -37,6 +37,11 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine("-------------- Reversing each word in a string --------------------");
             reverseEachWord.WordReverse("Hello World");
 
+            //Count the occurence of the letter in string
+            CharacterOccurence characterOccurence = new CharacterOccurence();
+            Console.WriteLine("-------------- Count the occurence of each character --------------------");
+            characterOccurence.CountOccurrence("Hello World");
+        
             return View();
         }
 
