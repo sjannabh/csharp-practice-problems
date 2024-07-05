@@ -41,7 +41,12 @@ namespace csharp_practice_problems.Controllers
             CharacterOccurence characterOccurence = new CharacterOccurence();
             Console.WriteLine("-------------- Count the occurence of each character --------------------");
             characterOccurence.CountOccurrence("Hello World");
-        
+
+            //Remove duplicate characters
+            RemoveDuplicates removeDuplicates = new RemoveDuplicates();
+            Console.WriteLine("-------------- Remove duplicate characters --------------------");
+            removeDuplicates.remDuplicates("csharpcorner");
+
             return View();
         }
 
