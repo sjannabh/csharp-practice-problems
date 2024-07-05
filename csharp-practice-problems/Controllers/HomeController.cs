@@ -32,6 +32,10 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine("----------- Reversing words in string --------------");
             reverseOrderOfWords.reverseWords("Hello World");
 
+            //Reverse each word in a string
+            ReverseEachWord reverseEachWord = new ReverseEachWord();
+            Console.WriteLine("-------------- Reversing each word in a string --------------------");
+            reverseEachWord.WordReverse("Hello World");
 
             return View();
         }
