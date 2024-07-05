@@ -18,12 +18,19 @@ namespace csharp_practice_problems.Controllers
         {
             // Reversing a string
             ReverseAString reverseAString = new ReverseAString();
+            Console.WriteLine("--------- Reverse a string ----------------");
             Console.WriteLine(reverseAString.StringReverse("Hello World"));
 
             //Palindrome or not
             Palindrome palindrome = new Palindrome();
+            Console.WriteLine("------------- Palindrome -------------");
             Console.WriteLine(palindrome.PalindromeOrNot("madam"));
             Console.WriteLine(palindrome.PalindromeOrNot("Honey"));
+
+            //Revese the words in a string
+            ReverseOrderOfWords reverseOrderOfWords = new ReverseOrderOfWords();
+            Console.WriteLine("----------- Reversing words in string --------------");
+            reverseOrderOfWords.reverseWords("Hello World");
 
 
             return View();
