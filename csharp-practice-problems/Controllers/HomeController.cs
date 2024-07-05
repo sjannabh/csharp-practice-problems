@@ -1,4 +1,5 @@
 using csharp_practice_problems.Models;
+using csharp_practice_problems.Problems;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -15,6 +16,12 @@ namespace csharp_practice_problems.Controllers
 
         public IActionResult Index()
         {
+            // Reversing a string
+            ReverseAString reverseAString = new ReverseAString();
+            Console.WriteLine(reverseAString.StringReverse("Hello World"));
+
+
+
             return View();
         }
 
