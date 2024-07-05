@@ -20,6 +20,10 @@ namespace csharp_practice_problems.Controllers
             ReverseAString reverseAString = new ReverseAString();
             Console.WriteLine(reverseAString.StringReverse("Hello World"));
 
+            //Palindrome or not
+            Palindrome palindrome = new Palindrome();
+            Console.WriteLine(palindrome.PalindromeOrNot("madam"));
+            Console.WriteLine(palindrome.PalindromeOrNot("Honey"));
 
 
             return View();
