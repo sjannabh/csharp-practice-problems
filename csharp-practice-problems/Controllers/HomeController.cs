@@ -52,6 +52,11 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine("--------------- Possible substrings of a string -----------------");
             possibleSubstrings.PosSubString("abcd");
 
+            //Left circular rotation
+            LeftCircularRotation leftCircularRotation = new LeftCircularRotation();
+            Console.WriteLine("------------- Left circular rotation on array ----------------");
+            leftCircularRotation.LeftCircle([2,3,4,5,1]);
+
             return View();
         }
 
