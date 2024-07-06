@@ -68,6 +68,10 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine("----------- Prime number or not --------------------");
             Console.WriteLine(primeNumber.CheckPrime(181));
             
+            //SUm of digits of a positive integer
+            SumOfDigits sumOfDigits = new SumOfDigits();
+            Console.WriteLine("---------------- Sum of digits of a positive integer -----------------");
+            sumOfDigits.DigitsSum(51);
 
 
             return View();
