@@ -84,6 +84,12 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine("-------------- Third Largest Integer --------------------");
             thirdLargestInteger.thirdLargest([98,95,86,45,32,61]);
 
+            //Two Dimensional Array to One Dimensional Array
+            TwoDtoOneD  twoo = new TwoDtoOneD();
+            Console.WriteLine("------------- 2D to 1D array -----------------");
+            int[,] arr = { { 1, 2, 3 }, {4,5,6} };
+            twoo.convertTwoDtoOneD(arr);
+
             return View();
         }
 
