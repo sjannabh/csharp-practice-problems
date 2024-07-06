@@ -96,6 +96,11 @@ namespace csharp_practice_problems.Controllers
             int[] array = { 1, 2, 3, 4, 5, 6 };
             oneDtoTwoD.convertOneD(array,2,3);
 
+            //Angle between hour and minutes hand
+            AngleBetweenHandM angleBetweenHandM = new AngleBetweenHandM();
+            Console.WriteLine("------------------- Angle betwen hour and minute hands in a clock -------------------");
+            angleBetweenHandM.findAngle(1, 50);
+
 
             return View();
         }
