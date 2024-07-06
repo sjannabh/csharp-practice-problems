@@ -90,6 +90,13 @@ namespace csharp_practice_problems.Controllers
             int[,] arr = { { 1, 2, 3 }, {4,5,6} };
             twoo.convertTwoDtoOneD(arr);
 
+            //Two Dimentional Array to One Dimentional Array
+            OneDtoTwoD oneDtoTwoD = new OneDtoTwoD();
+            Console.WriteLine("----------- 1D to 2D Array ------------");
+            int[] array = { 1, 2, 3, 4, 5, 6 };
+            oneDtoTwoD.convertOneD(array,2,3);
+
+
             return View();
         }
 
