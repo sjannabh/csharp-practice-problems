@@ -55,7 +55,13 @@ namespace csharp_practice_problems.Controllers
             //Left circular rotation
             LeftCircularRotation leftCircularRotation = new LeftCircularRotation();
             Console.WriteLine("------------- Left circular rotation on array ----------------");
-            leftCircularRotation.LeftCircle([2,3,4,5,1]);
+            leftCircularRotation.LeftCircle([5,1,2,3,4]);
+            Console.WriteLine();
+
+            //right circular rotation
+            RightCircularRotation rightCircularRotation = new RightCircularRotation();
+            Console.WriteLine("-------------- Right circular rotation on arrar ---------------");
+            rightCircularRotation.RightCircle([1, 2, 3, 4, 5]);
 
             return View();
         }

@@ -19,6 +19,7 @@ namespace csharp_practice_problems.Problems
                 Console.Write(arr[i]+ " ");
                 
             }
+          
 
         }
     }
