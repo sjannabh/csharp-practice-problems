@@ -63,6 +63,13 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine("-------------- Right circular rotation on arrar ---------------");
             rightCircularRotation.RightCircle([1, 2, 3, 4, 5]);
 
+            //prime or not
+            PrimeNumber primeNumber = new PrimeNumber();
+            Console.WriteLine("----------- Prime number or not --------------------");
+            Console.WriteLine(primeNumber.CheckPrime(181));
+            
+
+
             return View();
         }
 
