@@ -79,6 +79,11 @@ namespace csharp_practice_problems.Controllers
             secondLargetInteger.secondLargest([5,1,2,3,4]);
 
 
+            //Third Biggest integer in an array
+            ThirdLargestInteger thirdLargestInteger = new ThirdLargestInteger();
+            Console.WriteLine("-------------- Third Largest Integer --------------------");
+            thirdLargestInteger.thirdLargest([98,95,86,45,32,61]);
+
             return View();
         }
 
