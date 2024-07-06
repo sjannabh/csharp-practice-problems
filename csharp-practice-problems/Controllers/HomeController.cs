@@ -101,6 +101,11 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine("------------------- Angle betwen hour and minute hands in a clock -------------------");
             angleBetweenHandM.findAngle(1, 50);
 
+            //Add even numbers in the array of numbers
+            AddEvensInArray addEvensInArray = new AddEvensInArray();
+            Console.WriteLine("------------------------ Sum of even numbers in the given arra of numbers -----------------------");
+            addEvensInArray.evenSum([23, 2, 3, 32, 66, 6]);
+
 
             return View();
         }
