@@ -170,6 +170,10 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine("---------- Sum of even indexer values and sum of odd indexer values of an array ------------");
             evenSumOddSum.sumEvenSumOdd([1, 2, 3, 4, 5, 6]);
 
+            DiamondPattern diamondPattern = new DiamondPattern();
+            Console.WriteLine("------- Printing Diamond Pattern -------------");
+            diamondPattern.pattern(5);
+
             return View();
         }
 
