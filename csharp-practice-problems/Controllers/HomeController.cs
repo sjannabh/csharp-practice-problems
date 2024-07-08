@@ -144,6 +144,11 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine("------------ Swapping two numbers --------------");
             sw.swapping(50, 200);
 
+            //Sum of all elements of a matrix
+            SumOfAllMatrixElements sum = new SumOfAllMatrixElements();
+            Console.WriteLine("-------------- Sum of all elements of the matrix -------------");
+            int[,] input = new int[3,4] { { 4, 5, 3, 2 }, { 9, 5, 6, 2 }, { 1, 5, 3, 5 } };
+            sum.MatrixSum(input);
 
             return View();
         }
