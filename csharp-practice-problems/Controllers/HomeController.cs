@@ -120,7 +120,11 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine(addEvensInArray1.GetHashCode());
             Console.WriteLine(addEvensInArray2.GetHashCode());
 
-
+            // Sum of sum-series of N Natural numbers
+            SumOfSumSeries sumSeries = new SumOfSumSeries();
+            Console.WriteLine("------------- Sum of sum-series of N natural numbers ------------------");
+            sumSeries.SumSumSeries(6);
+            sumSeries.approach2(6);
 
 
             return View();
