@@ -150,6 +150,10 @@ namespace csharp_practice_problems.Controllers
             int[,] input = new int[3,4] { { 4, 5, 3, 2 }, { 9, 5, 6, 2 }, { 1, 5, 3, 5 } };
             sum.MatrixSum(input);
 
+            CharacterVowelorNot charCheck = new CharacterVowelorNot();
+            Console.WriteLine("----------- Character is Vowel or Not -------------");
+            charCheck.IsVowel('O');
+
             return View();
         }
 
