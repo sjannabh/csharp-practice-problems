@@ -126,6 +126,10 @@ namespace csharp_practice_problems.Controllers
             sumSeries.SumSumSeries(6);
             sumSeries.approach2(6);
 
+            //check if the number is binary or not
+            NumberBinaryOrNot numberBinaryOrNot = new NumberBinaryOrNot();
+            Console.WriteLine("------------- Check if a number is binary or not ------------------");
+            numberBinaryOrNot.CheckBinary(1234);
 
             return View();
         }
