@@ -162,6 +162,10 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine("-------------- Lowercase to Uppercase String -------------");
             lowerCaseToUpperCase.lowerToUpper("GeeksForGeeks");
 
+            MultiplyElementsOfArray multiplyElementsOfArray = new MultiplyElementsOfArray();
+            Console.WriteLine("--------------- Product os array elements ------------");
+            multiplyElementsOfArray.elementsProduct([1, 3, 5, 7,9]);
+
             return View();
         }
 
