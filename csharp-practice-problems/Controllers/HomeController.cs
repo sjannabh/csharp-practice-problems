@@ -76,25 +76,25 @@ namespace csharp_practice_problems.Controllers
             //Second Largest integer in an array
             SecondLargetInteger secondLargetInteger = new SecondLargetInteger();
             Console.WriteLine("------------- Second Largest Integer ---------------");
-            secondLargetInteger.secondLargest([5,1,2,3,4]);
+            secondLargetInteger.secondLargest([5, 1, 2, 3, 4]);
 
 
             //Third Biggest integer in an array
             ThirdLargestInteger thirdLargestInteger = new ThirdLargestInteger();
             Console.WriteLine("-------------- Third Largest Integer --------------------");
-            thirdLargestInteger.thirdLargest([98,95,86,45,32,61]);
+            thirdLargestInteger.thirdLargest([98, 95, 86, 45, 32, 61]);
 
             //Two Dimensional Array to One Dimensional Array
-            TwoDtoOneD  twoo = new TwoDtoOneD();
+            TwoDtoOneD twoo = new TwoDtoOneD();
             Console.WriteLine("------------- 2D to 1D array -----------------");
-            int[,] arr = { { 1, 2, 3 }, {4,5,6} };
+            int[,] arr = { { 1, 2, 3 }, { 4, 5, 6 } };
             twoo.convertTwoDtoOneD(arr);
 
             //Two Dimentional Array to One Dimentional Array
             OneDtoTwoD oneDtoTwoD = new OneDtoTwoD();
             Console.WriteLine("----------- 1D to 2D Array ------------");
             int[] array = { 1, 2, 3, 4, 5, 6 };
-            oneDtoTwoD.convertOneD(array,2,3);
+            oneDtoTwoD.convertOneD(array, 2, 3);
 
             //Angle between hour and minutes hand
             AngleBetweenHandM angleBetweenHandM = new AngleBetweenHandM();
@@ -130,6 +130,11 @@ namespace csharp_practice_problems.Controllers
             NumberBinaryOrNot numberBinaryOrNot = new NumberBinaryOrNot();
             Console.WriteLine("------------- Check if a number is binary or not ------------------");
             numberBinaryOrNot.CheckBinary(1234);
+
+            CheckNumberEvenOrOdd checkNumberEvenOrOdd = new CheckNumberEvenOrOdd();
+            Console.WriteLine("------------ Check number is even  or odd -----------------");
+            checkNumberEvenOrOdd.EvenOdd(25);
+            
 
             return View();
         }
