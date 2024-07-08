@@ -134,7 +134,10 @@ namespace csharp_practice_problems.Controllers
             CheckNumberEvenOrOdd checkNumberEvenOrOdd = new CheckNumberEvenOrOdd();
             Console.WriteLine("------------ Check number is even  or odd -----------------");
             checkNumberEvenOrOdd.EvenOdd(25);
-            
+
+            //string res = (26 % 2) == 0 ? "Even" : "Odd";
+            Console.WriteLine((26%2) == 0 ? "Even":"Odd");
+
 
             return View();
         }
