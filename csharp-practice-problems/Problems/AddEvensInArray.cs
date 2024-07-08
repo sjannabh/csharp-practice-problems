@@ -16,5 +16,13 @@
             Console.WriteLine(sum);
         }
 
+         public int Sure(int a)
+        {
+            a += 10;
+             return a; 
+        }
     }
+
+
+    
 }

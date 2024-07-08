@@ -107,7 +107,31 @@ namespace csharp_practice_problems.Controllers
             addEvensInArray.evenSum([23, 2, 3, 32, 66, 6]);
 
 
+            int a = 5;
+
+            Console.WriteLine(a);
+            int result = val(ref a);
+
+            Console.WriteLine(a);
+
+            AddEvensInArray addEvensInArray1 = new AddEvensInArray();
+            AddEvensInArray addEvensInArray2 = addEvensInArray1;
+
+            Console.WriteLine(addEvensInArray1.GetHashCode());
+            Console.WriteLine(addEvensInArray2.GetHashCode());
+
+
+
+
             return View();
+        }
+
+
+
+        public int val(ref int b)
+        {
+            b = 10;
+            return 9;
         }
 
         public IActionResult Privacy()
