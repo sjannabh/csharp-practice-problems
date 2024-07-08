@@ -136,7 +136,13 @@ namespace csharp_practice_problems.Controllers
             checkNumberEvenOrOdd.EvenOdd(25);
 
             //string res = (26 % 2) == 0 ? "Even" : "Odd";
+            Console.WriteLine("----- Check number is even or odd using ternary operator ------");
             Console.WriteLine((26%2) == 0 ? "Even":"Odd");
+
+            //swapping two numbers
+            SwappingTwoNumbers sw = new SwappingTwoNumbers();
+            Console.WriteLine("------------ Swapping two numbers --------------");
+            sw.swapping(50, 200);
 
 
             return View();
