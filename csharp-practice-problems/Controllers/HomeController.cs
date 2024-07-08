@@ -158,6 +158,10 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine("------------ Find Largest number among three numbers ------------");
             largestNumberAmongThree.largestNum(8, 10, 50);
 
+            LowerCaseToUpperCase lowerCaseToUpperCase = new LowerCaseToUpperCase();
+            Console.WriteLine("-------------- Lowercase to Uppercase String -------------");
+            lowerCaseToUpperCase.lowerToUpper("GeeksForGeeks");
+
             return View();
         }
 
