@@ -154,6 +154,10 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine("----------- Character is Vowel or Not -------------");
             charCheck.IsVowel('O');
 
+            LargestNumberAmongThree largestNumberAmongThree = new LargestNumberAmongThree();
+            Console.WriteLine("------------ Find Largest number among three numbers ------------");
+            largestNumberAmongThree.largestNum(8, 10, 50);
+
             return View();
         }
 
