@@ -166,6 +166,10 @@ namespace csharp_practice_problems.Controllers
             Console.WriteLine("--------------- Product os array elements ------------");
             multiplyElementsOfArray.elementsProduct([1, 3, 5, 7,9]);
 
+            EvenSumOddSum evenSumOddSum = new EvenSumOddSum();
+            Console.WriteLine("---------- Sum of even indexer values and sum of odd indexer values of an array ------------");
+            evenSumOddSum.sumEvenSumOdd([1, 2, 3, 4, 5, 6]);
+
             return View();
         }
 
