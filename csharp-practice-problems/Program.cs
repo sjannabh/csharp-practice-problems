@@ -134,37 +134,51 @@ Console.WriteLine("-------------- Sum of all elements of the matrix ------------
 int[,] input = new int[3, 4] { { 4, 5, 3, 2 }, { 9, 5, 6, 2 }, { 1, 5, 3, 5 } };
 sum.MatrixSum(input);
 
+//Vowel or not
 CharacterVowelorNot charCheck = new CharacterVowelorNot();
 Console.WriteLine("----------- Character is Vowel or Not -------------");
 charCheck.IsVowel('O');
 
+//Largest number among three numbers
 LargestNumberAmongThree largestNumberAmongThree = new LargestNumberAmongThree();
 Console.WriteLine("------------ Find Largest number among three numbers ------------");
 largestNumberAmongThree.largestNum(8, 10, 50);
 
+//Change the lower case string to the upper case string
 LowerCaseToUpperCase lowerCaseToUpperCase = new LowerCaseToUpperCase();
 Console.WriteLine("-------------- Lowercase to Uppercase String -------------");
 lowerCaseToUpperCase.lowerToUpper("GeeksForGeeks");
 
+//Multiply all the elements in the given array
 MultiplyElementsOfArray multiplyElementsOfArray = new MultiplyElementsOfArray();
 Console.WriteLine("--------------- Product os array elements ------------");
 multiplyElementsOfArray.elementsProduct([1, 3, 5, 7, 9]);
 
+//Find the even indexers sum and odd indexers sum of the given array
 EvenSumOddSum evenSumOddSum = new EvenSumOddSum();
 Console.WriteLine("---------- Sum of even indexer values and sum of odd indexer values of an array ------------");
 evenSumOddSum.sumEvenSumOdd([1, 2, 3, 4, 5, 6]);
 
+//print all the stars in the diamond pattern
 DiamondPattern diamondPattern = new DiamondPattern();
 Console.WriteLine("------- Printing Diamond Pattern -------------");
 diamondPattern.pattern(5);
-    
+   
+//print the stars in the half diamond shape
 HalfDiamond halfDiamond = new HalfDiamond();
 Console.WriteLine("------------ Half Diamond Pattern ------------------");
 halfDiamond.halfDiamondPattern(5);
 
+//print the alternate elemnets of the given array
 AlternateElementsofArray Alternate = new AlternateElementsofArray();
 Console.WriteLine("---------- Printing alternate elements of given array -----------");
 Alternate.alternate([1, 2, 3, 4, 5]);
+Console.WriteLine();
+
+//Count the number of digits present in th given number
+CountOfDigitsInNumber countOfDigitsInNumber = new CountOfDigitsInNumber();
+Console.WriteLine("--------- Count of the number of digits present in the given number ----------------");
+countOfDigitsInNumber.digitCount(112345);
 
 static int val(ref int b)
 {
