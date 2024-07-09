@@ -180,6 +180,11 @@ CountOfDigitsInNumber countOfDigitsInNumber = new CountOfDigitsInNumber();
 Console.WriteLine("--------- Count of the number of digits present in the given number ----------------");
 countOfDigitsInNumber.digitCount(112345);
 
+//Check whether the given array is palindrome or not
+ArrayPalindrome arrayPal = new ArrayPalindrome();
+Console.WriteLine("------------ Array Palindrome or not ------------");
+arrayPal.IsArrayPalindrome([3, 6, 0, 2, 3]);
+
 static int val(ref int b)
 {
     b = 10;
