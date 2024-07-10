@@ -193,6 +193,11 @@ ArmstrongNumber asNum = new ArmstrongNumber();
 Console.WriteLine("---------- Armstrong Number or Not -------------");
 asNum.isArmstrong(120);
 
+ReverseNumber reverseNum = new ReverseNumber();
+Console.WriteLine("--------- Revesing of a number -----------");
+reverseNum.reverse(4372891);
+reverseNum.apprach2(12345);
+
 static int val(ref int b)
 {
     b = 10;
