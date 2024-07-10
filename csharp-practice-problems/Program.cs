@@ -185,6 +185,10 @@ ArrayPalindrome arrayPal = new ArrayPalindrome();
 Console.WriteLine("------------ Array Palindrome or not ------------");
 arrayPal.IsArrayPalindrome([3, 6, 0, 2, 3]);
 
+MeanAndMedian meanAndMedian = new MeanAndMedian();
+Console.WriteLine("----------- Mean and Median of an unsorted array --------------");
+meanAndMedian.FindMandM([4,4,4,4]);
+
 static int val(ref int b)
 {
     b = 10;
