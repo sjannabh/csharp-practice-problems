@@ -226,6 +226,11 @@ DiceProblem dice = new DiceProblem();
 Console.WriteLine("---- Guess the number on the opposite face of the dice -----");
 dice.guessOppNum(5);
 
+//Remove vowels from the string
+RemoveVowelsFromString remVow  = new RemoveVowelsFromString();
+Console.WriteLine("----------- Remove the vowels from the given string -------------");
+remVow.removeVowels("What is your name ?");
+
 
 static int val(ref int b)
 {
