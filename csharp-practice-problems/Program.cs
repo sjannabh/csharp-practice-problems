@@ -221,6 +221,11 @@ ReversingVowelsInString reverseStr = new ReversingVowelsInString();
 Console.WriteLine("----------- Reversing vowles in the given string --------------");
 reverseStr.revStr("Hello World");
 
+//Given the number on one side of the dice and we need to guess the number on the opposite side of given number
+DiceProblem dice = new DiceProblem();
+Console.WriteLine("---- Guess the number on the opposite face of the dice -----");
+dice.guessOppNum(5);
+
 
 static int val(ref int b)
 {
