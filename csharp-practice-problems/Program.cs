@@ -189,6 +189,10 @@ MeanAndMedian meanAndMedian = new MeanAndMedian();
 Console.WriteLine("----------- Mean and Median of an unsorted array --------------");
 meanAndMedian.FindMandM([4,4,4,4]);
 
+ArmstrongNumber asNum = new ArmstrongNumber();
+Console.WriteLine("---------- Armstrong Number or Not -------------");
+asNum.isArmstrong(120);
+
 static int val(ref int b)
 {
     b = 10;
