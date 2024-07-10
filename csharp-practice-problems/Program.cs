@@ -216,6 +216,10 @@ MultiplicationTable mTable = new MultiplicationTable();
 Console.WriteLine("--------- Multiplication Table ----------");
 mTable.table(5);
 
+//Revesing vowels in the given string
+ReversingVowelsInString reverseStr = new ReversingVowelsInString();
+Console.WriteLine("----------- Reversing vowles in the given string --------------");
+reverseStr.revStr("Hello World");
 
 
 static int val(ref int b)
