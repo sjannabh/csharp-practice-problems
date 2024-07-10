@@ -211,6 +211,11 @@ SumOfDigitsIsPalindrome checkPalindrome = new SumOfDigitsIsPalindrome();
 Console.WriteLine("----------- Check if the sum of digits of N is palindrome ---------------");
 checkPalindrome.digitSum(5539);
 
+//Print the multiplication table of a number
+MultiplicationTable mTable = new MultiplicationTable();
+Console.WriteLine("--------- Multiplication Table ----------");
+mTable.table(5);
+
 
 
 static int val(ref int b)
