@@ -206,6 +206,11 @@ RemoveSpaces remSpace = new RemoveSpaces();
 Console.WriteLine("--------- Remove the spaces from the given string ---------");
 remSpace.spaceRemove("Have a good day");
 
+//Sum of digits of N is palindrome or not
+SumOfDigitsIsPalindrome checkPalindrome = new SumOfDigitsIsPalindrome();
+Console.WriteLine("----------- Check if the sum of digits of N is palindrome ---------------");
+checkPalindrome.digitSum(5539);
+
 
 
 static int val(ref int b)
