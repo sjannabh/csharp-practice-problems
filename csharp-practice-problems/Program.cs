@@ -185,18 +185,28 @@ ArrayPalindrome arrayPal = new ArrayPalindrome();
 Console.WriteLine("------------ Array Palindrome or not ------------");
 arrayPal.IsArrayPalindrome([3, 6, 0, 2, 3]);
 
+//Mean and median of the array
 MeanAndMedian meanAndMedian = new MeanAndMedian();
 Console.WriteLine("----------- Mean and Median of an unsorted array --------------");
 meanAndMedian.FindMandM([4,4,4,4]);
 
+//find if the given number is armstrong number or not
 ArmstrongNumber asNum = new ArmstrongNumber();
 Console.WriteLine("---------- Armstrong Number or Not -------------");
 asNum.isArmstrong(120);
 
+//reverse the given number
 ReverseNumber reverseNum = new ReverseNumber();
 Console.WriteLine("--------- Revesing of a number -----------");
 reverseNum.reverse(4372891);
 reverseNum.apprach2(12345);
+
+//Remove spaces for the given string
+RemoveSpaces remSpace = new RemoveSpaces();
+Console.WriteLine("--------- Remove the spaces from the given string ---------");
+remSpace.spaceRemove("Have a good day");
+
+
 
 static int val(ref int b)
 {
