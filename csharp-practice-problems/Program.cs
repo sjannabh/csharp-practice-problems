@@ -231,6 +231,11 @@ RemoveVowelsFromString remVow  = new RemoveVowelsFromString();
 Console.WriteLine("----------- Remove the vowels from the given string -------------");
 remVow.removeVowels("What is your name ?");
 
+//Count the camel case  characters present in the given string
+CountCamelCase cou = new CountCamelCase();
+Console.WriteLine("------------- Count of camel case characters present in the given string ----------");
+cou.countCamel("GOODDadeEar");
+
 
 static int val(ref int b)
 {
