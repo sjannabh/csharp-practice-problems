@@ -316,15 +316,23 @@ Console.WriteLine("------------ Check if the given matrices are identical or not
 checkIden.CheckIdentical(arr1, arr2);
 
 //Compute sums of diagonlas of a square matrix
+int res1, res2;
 SumOfDiagonals diagSum = new SumOfDiagonals();
 Console.WriteLine("----------- Compute sums of diagonals of a square matrix ----------------");
-diagSum.diagnolsSum(arr1);
+diagSum.diagnolsSum(arr1, out res1, out res2);
 
 //Check if the number is automorphic or not
 AutomorphicNumber auto = new AutomorphicNumber();
 Console.WriteLine("---------------- Automorphic or Not -----------------");
 auto.IsAutomorphic(76);
 auto.IsAutomorphic(7);
+
+
+//Find difference between sums of two diagonals of square matrix
+int[,] arr3 = new int[3, 3] { {11,2,4}, {4,5,6 }, {10,8,-12 } };
+DifferenceBetweenSumofDiagonals difference = new DifferenceBetweenSumofDiagonals();
+Console.WriteLine("-------------- Difference between sums of two diagonals of square matrix ----------------");
+Console.WriteLine(difference.getDifference(arr3));
 
 static int val(ref int b)
 {

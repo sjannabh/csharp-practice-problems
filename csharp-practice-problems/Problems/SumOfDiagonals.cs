@@ -2,7 +2,7 @@
 {
     public class SumOfDiagonals
     {
-        public void diagnolsSum(int[,] arr)
+        public void diagnolsSum(int[,] arr, out int res1, out int res2)
         {
             // there are two diagonals in a 2D square matrix
             // Principle diagonal - a00, a11, a22, a33
@@ -26,6 +26,8 @@
                     }
                 }
             }
+            res1 = diagSum1;
+            res2 = diagSum2;
 
             Console.WriteLine("Principle Diagonal Sum = " + diagSum1);
             Console.WriteLine("Secondary Diagonal Sum = " + diagSum2);
