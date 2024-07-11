@@ -350,6 +350,10 @@ CountCharacterOccurences charCountOcc  = new CountCharacterOccurences();
 Console.WriteLine("---------- Find the maximum occurring character in a string ------------");
 charCountOcc.countOccurence("geeksforgeeks");
 
+//Find uncommon characters of the two strings
+UncommonCharacters uncommonCharacters = new UncommonCharacters();
+Console.WriteLine("-------------- Find uncommon characters of two strings -----------------");
+uncommonCharacters.printUncommonChar("characters", "alphabets");
 static int val(ref int b)
 {
     b = 10;
