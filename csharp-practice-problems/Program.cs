@@ -293,6 +293,10 @@ DisplayLongestName dName = new DisplayLongestName();
 Console.WriteLine("------------ Display Longest Name in the given array of strings ---------------");
 dName.displayLong(["GeeksForGeeks", "FreeCodeCamp", "StackOverFlow", "MyCodeSchool"]);
 
+//Find the volume and surface area of the cuboid
+Cuboid cube = new Cuboid();
+Console.WriteLine("------------- Volume and Surface area of Cuboid -----------");
+cube.volumeAndSurfaceArea(2, 3, 4);
 static int val(ref int b)
 {
     b = 10;
