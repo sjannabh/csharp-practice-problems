@@ -302,6 +302,19 @@ cube.volumeAndSurfaceArea(2, 3, 4);
 FloydTriangle floydTri = new FloydTriangle();
 Console.WriteLine("-------------- Print Floyd's Tiangle ---------------");
 floydTri.FTraingle(5);
+
+//Cube root of a number
+CubeRoot cubeRoot = new CubeRoot();
+Console.WriteLine("------------- Cube root of a number -----------");
+cubeRoot.FindCubeRoot(3);
+
+//Check if two given matrices are identical
+int[,] arr1 = new int[3, 4] { { 1, 1, 1, 1 }, { 2, 2, 2, 2 }, { 3, 3, 3, 3 } };
+int[,] arr2 = new int[4, 4] { { 1, 1, 1, 1 }, { 2, 2, 2, 2 }, { 3, 3, 3, 3 }, { 4, 4, 4, 4 } };
+CheckTwoMatricesIdentical checkIden = new CheckTwoMatricesIdentical();
+Console.WriteLine("------------ Check if the given matrices are identical or not ----------------");
+checkIden.CheckIdentical(arr1, arr2);
+
 static int val(ref int b)
 {
     b = 10;
