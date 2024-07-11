@@ -262,6 +262,11 @@ SimpleIntrest si = new SimpleIntrest();
 Console.WriteLine("--- FInd the simple Intrest --------");
 si.findSI(1, 1, 1);
 
+//Sum of arithmetic series
+ArithmeticSeries aseries = new ArithmeticSeries();
+Console.WriteLine("------------ Sum of arithmetic series ------------");
+aseries.SumOfAS(2.5f, 1.5f, 20);
+
 static int val(ref int b)
 {
     b = 10;
