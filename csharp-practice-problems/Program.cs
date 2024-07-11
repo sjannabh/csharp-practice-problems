@@ -334,6 +334,11 @@ DifferenceBetweenSumofDiagonals difference = new DifferenceBetweenSumofDiagonals
 Console.WriteLine("-------------- Difference between sums of two diagonals of square matrix ----------------");
 Console.WriteLine(difference.getDifference(arr3));
 
+//Find the number of diagonals in n sided convex polygon
+DiagonalsInNsidedPolygon diagn = new DiagonalsInNsidedPolygon();
+Console.WriteLine("------------------ Number of DIagonals in n sided conves polygon -------------------");
+diagn.diagonalCount(4);
+
 static int val(ref int b)
 {
     b = 10;
