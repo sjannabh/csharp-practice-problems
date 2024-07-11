@@ -345,6 +345,11 @@ ToeplitzOrNot toe = new ToeplitzOrNot();
 Console.WriteLine("----------------- Toeplitz or not ---------------------");
 Console.WriteLine(toe.IsToeplitz(arr4) ? "Toeplitz Matrix" : "Not Toeplitz Matrix");
 
+//Find maximum occuring character in a string
+CountCharacterOccurences charCountOcc  = new CountCharacterOccurences();
+Console.WriteLine("---------- Find the maximum occurring character in a string ------------");
+charCountOcc.countOccurence("geeksforgeeks");
+
 static int val(ref int b)
 {
     b = 10;
