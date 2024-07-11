@@ -297,6 +297,11 @@ dName.displayLong(["GeeksForGeeks", "FreeCodeCamp", "StackOverFlow", "MyCodeScho
 Cuboid cube = new Cuboid();
 Console.WriteLine("------------- Volume and Surface area of Cuboid -----------");
 cube.volumeAndSurfaceArea(2, 3, 4);
+
+//Floyd Triangle
+FloydTriangle floydTri = new FloydTriangle();
+Console.WriteLine("-------------- Print Floyd's Tiangle ---------------");
+floydTri.FTraingle(5);
 static int val(ref int b)
 {
     b = 10;
