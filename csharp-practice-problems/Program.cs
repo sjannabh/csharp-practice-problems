@@ -320,6 +320,12 @@ SumOfDiagonals diagSum = new SumOfDiagonals();
 Console.WriteLine("----------- Compute sums of diagonals of a square matrix ----------------");
 diagSum.diagnolsSum(arr1);
 
+//Check if the number is automorphic or not
+AutomorphicNumber auto = new AutomorphicNumber();
+Console.WriteLine("---------------- Automorphic or Not -----------------");
+auto.IsAutomorphic(76);
+auto.IsAutomorphic(7);
+
 static int val(ref int b)
 {
     b = 10;
