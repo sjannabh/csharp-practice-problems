@@ -282,6 +282,17 @@ GeometricSeries geometric = new GeometricSeries();
 Console.WriteLine("----------------- Sum of Geometric Series --------------");
 geometric.SumOfGS(2, 2, 15);
 
+//Extract all integers from a given string
+ExtractIntegersFromString extr = new ExtractIntegersFromString();
+Console.WriteLine("--------- Extract all integers from a given string ------------------");
+extr.IntegerExtract("1Hello2 &*how are y5ou".ToCharArray());
+Console.WriteLine();
+
+//Display Longest Name in the given array of strings
+DisplayLongestName dName = new DisplayLongestName();
+Console.WriteLine("------------ Display Longest Name in the given array of strings ---------------");
+dName.displayLong(["GeeksForGeeks", "FreeCodeCamp", "StackOverFlow", "MyCodeSchool"]);
+
 static int val(ref int b)
 {
     b = 10;
