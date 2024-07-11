@@ -241,6 +241,11 @@ RemainderEvaluation rem = new RemainderEvaluation();
 Console.WriteLine("--------- Find the remainder of num1 and num2 ----------");
 rem.eval(15,3);
 
+//Convert character list into string
+CharListToString chSt = new CharListToString();
+Console.WriteLine("----------- Change the char list to string ----------");
+chSt.charactToString(['a','b','c','d']);
+
 
 static int val(ref int b)
 {
