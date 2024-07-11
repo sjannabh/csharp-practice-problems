@@ -267,6 +267,11 @@ ArithmeticSeries aseries = new ArithmeticSeries();
 Console.WriteLine("------------ Sum of arithmetic series ------------");
 aseries.SumOfAS(2.5f, 1.5f, 20);
 
+//Find factorial of a nummber
+Factorial factorial = new Factorial();
+Console.WriteLine("---------- Factorial of a number --------");
+Console.WriteLine(factorial.fact(6));
+
 static int val(ref int b)
 {
     b = 10;
