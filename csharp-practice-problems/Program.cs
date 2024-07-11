@@ -272,6 +272,11 @@ Factorial factorial = new Factorial();
 Console.WriteLine("---------- Factorial of a number --------");
 Console.WriteLine(factorial.fact(6));
 
+//Calculate the distance between two points
+DistanceBetweenTwoPoints distance = new DistanceBetweenTwoPoints();
+Console.WriteLine("------------------ Distance between two points ---------------");
+distance.PointDistance(3, 4, 7, 7);
+
 static int val(ref int b)
 {
     b = 10;
