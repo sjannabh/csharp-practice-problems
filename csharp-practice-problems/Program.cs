@@ -236,6 +236,11 @@ CountCamelCase cou = new CountCamelCase();
 Console.WriteLine("------------- Count of camel case characters present in the given string ----------");
 cou.countCamel("GOODDadeEar");
 
+// Find the remainder when num1 is divided by num2
+RemainderEvaluation rem = new RemainderEvaluation();
+Console.WriteLine("--------- Find the remainder of num1 and num2 ----------");
+rem.eval(15,3);
+
 
 static int val(ref int b)
 {
