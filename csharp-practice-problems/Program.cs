@@ -309,11 +309,16 @@ Console.WriteLine("------------- Cube root of a number -----------");
 cubeRoot.FindCubeRoot(3);
 
 //Check if two given matrices are identical
-int[,] arr1 = new int[3, 4] { { 1, 1, 1, 1 }, { 2, 2, 2, 2 }, { 3, 3, 3, 3 } };
+int[,] arr1 = new int[4, 4] { { 1, 1, 1, 1 }, { 2, 2, 2, 2 }, { 3, 3, 3, 3 }, { 4,4,4,4} };
 int[,] arr2 = new int[4, 4] { { 1, 1, 1, 1 }, { 2, 2, 2, 2 }, { 3, 3, 3, 3 }, { 4, 4, 4, 4 } };
 CheckTwoMatricesIdentical checkIden = new CheckTwoMatricesIdentical();
 Console.WriteLine("------------ Check if the given matrices are identical or not ----------------");
 checkIden.CheckIdentical(arr1, arr2);
+
+//Compute sums of diagonlas of a square matrix
+SumOfDiagonals diagSum = new SumOfDiagonals();
+Console.WriteLine("----------- Compute sums of diagonals of a square matrix ----------------");
+diagSum.diagnolsSum(arr1);
 
 static int val(ref int b)
 {
