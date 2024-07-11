@@ -257,6 +257,11 @@ Console.WriteLine("----------- Find n-th term of series 1,3,6,10,15,21........ -
 nthTerm.findN(3);
 Console.WriteLine(nthTerm.approach2(4));
 
+//Find the simple intrest
+SimpleIntrest si = new SimpleIntrest();
+Console.WriteLine("--- FInd the simple Intrest --------");
+si.findSI(1, 1, 1);
+
 static int val(ref int b)
 {
     b = 10;
