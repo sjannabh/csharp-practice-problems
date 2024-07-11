@@ -251,6 +251,12 @@ UniqueCharacters uniCh = new UniqueCharacters();
 Console.WriteLine("------------- Count of number of unique characters in the given string ----------");
 uniCh.uniCharacter("madam");
 
+//Find n-th term of series 1,3,6,10,15,21..........
+NthTermOfSeries nthTerm = new NthTermOfSeries();
+Console.WriteLine("----------- Find n-th term of series 1,3,6,10,15,21........ -------------");
+nthTerm.findN(3);
+Console.WriteLine(nthTerm.approach2(4));
+
 static int val(ref int b)
 {
     b = 10;
