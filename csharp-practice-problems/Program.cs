@@ -277,6 +277,11 @@ DistanceBetweenTwoPoints distance = new DistanceBetweenTwoPoints();
 Console.WriteLine("------------------ Distance between two points ---------------");
 distance.PointDistance(3, 4, 7, 7);
 
+//Sum of geometric series
+GeometricSeries geometric = new GeometricSeries();
+Console.WriteLine("----------------- Sum of Geometric Series --------------");
+geometric.SumOfGS(2, 2, 15);
+
 static int val(ref int b)
 {
     b = 10;
