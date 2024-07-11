@@ -339,6 +339,12 @@ DiagonalsInNsidedPolygon diagn = new DiagonalsInNsidedPolygon();
 Console.WriteLine("------------------ Number of DIagonals in n sided conves polygon -------------------");
 diagn.diagonalCount(4);
 
+//Toeplitz or not
+int[,] arr4 = { {6,3,8 }, {4,9,7 }, {1,4,6 } };
+ToeplitzOrNot toe = new ToeplitzOrNot();
+Console.WriteLine("----------------- Toeplitz or not ---------------------");
+Console.WriteLine(toe.IsToeplitz(arr4) ? "Toeplitz Matrix" : "Not Toeplitz Matrix");
+
 static int val(ref int b)
 {
     b = 10;
