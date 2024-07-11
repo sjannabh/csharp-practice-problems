@@ -246,6 +246,10 @@ CharListToString chSt = new CharListToString();
 Console.WriteLine("----------- Change the char list to string ----------");
 chSt.charactToString(['a','b','c','d']);
 
+//Count the number of unique characters
+UniqueCharacters uniCh = new UniqueCharacters();
+Console.WriteLine("------------- Count of number of unique characters in the given string ----------");
+uniCh.uniCharacter("madam");
 
 static int val(ref int b)
 {
