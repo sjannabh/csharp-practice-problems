@@ -421,6 +421,10 @@ AverageOfStreamNumbers avg = new AverageOfStreamNumbers();
 Console.WriteLine("---------------------- Average of a stream of numbers ---------------------");
 avg.PrintAvgStream([10, 20, 30, 40, 51, 60]);
 
+//Squareroot of a number
+Console.WriteLine("-------------- Square root of an integer -------------");
+Console.WriteLine((int)Math.Sqrt(11));
+
 static int val(ref int b)
 {
     b = 10;
