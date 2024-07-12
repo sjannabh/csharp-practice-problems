@@ -375,6 +375,11 @@ EarliestRepeatingCharacter ear = new EarliestRepeatingCharacter();
 Console.WriteLine("----------------- Find the earliest repeating character ----------------");
 ear.getEarliest("getup eat");
 
+//Program to check if a given year is leap year
+LeapYear lp = new LeapYear();
+Console.WriteLine("------------------------ Program to check if a given year is leap year ----------------------");
+lp.IsLeap(2023);
+
 static int val(ref int b)
 {
     b = 10;
