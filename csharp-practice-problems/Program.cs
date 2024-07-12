@@ -380,6 +380,11 @@ LeapYear lp = new LeapYear();
 Console.WriteLine("------------------------ Program to check if a given year is leap year ----------------------");
 lp.IsLeap(2023);
 
+//Solid and hollow patterns
+SolidAndHollowSquare sh = new SolidAndHollowSquare();
+Console.WriteLine("-------------- Solid and Hollow Patterns ---------------------");
+sh.sAndh(4);
+
 static int val(ref int b)
 {
     b = 10;
