@@ -414,6 +414,12 @@ dSearch.FindElement([1, 2,16,3,4,8]);
 FactorialLessThanNumber factorialNum = new FactorialLessThanNumber();
 Console.WriteLine("------------------- Find all factorial numbers less than or equal to number --------------");
 factorialNum.FindFact(1500);
+Console.WriteLine();
+
+//Average of a stream of numbers
+AverageOfStreamNumbers avg = new AverageOfStreamNumbers();
+Console.WriteLine("---------------------- Average of a stream of numbers ---------------------");
+avg.PrintAvgStream([10, 20, 30, 40, 51, 60]);
 
 static int val(ref int b)
 {
