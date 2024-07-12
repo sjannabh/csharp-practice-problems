@@ -400,6 +400,11 @@ NumberIsPowerOfAnotherNumber np = new NumberIsPowerOfAnotherNumber();
 Console.WriteLine("---------------------- Check if a number is a power of another number -----------------------");
 Console.WriteLine(np.isPower(10, 1) ? "1" : "0");
 
+//Alternatively Merge two strings
+MergeTwoStrings merg = new MergeTwoStrings();
+Console.WriteLine("----------- Alternatively Merge Two Strings --------------");
+merg.merge("geeks", "forgeeks");
+
 static int val(ref int b)
 {
     b = 10;
