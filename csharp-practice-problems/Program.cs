@@ -405,6 +405,11 @@ MergeTwoStrings merg = new MergeTwoStrings();
 Console.WriteLine("----------- Alternatively Merge Two Strings --------------");
 merg.merge("geeks", "forgeeks");
 
+//Repeatedly search an element by doubling it after every successful search
+DoubleTheSearchElement dSearch = new DoubleTheSearchElement();
+Console.WriteLine("---------------- Repeatedly search an element by doubling it after every successful search --------");
+dSearch.FindElement([1, 2,16,3,4,8]);
+
 static int val(ref int b)
 {
     b = 10;
