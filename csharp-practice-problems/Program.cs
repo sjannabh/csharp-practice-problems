@@ -390,6 +390,11 @@ RightTriangle rt = new RightTriangle();
 Console.WriteLine("--------- Print Right Triangle start pattern -------------------");
 rt.printRightTriangle(5);
 
+//Find a pair with maximum product in array of integers
+MaximumProduct mp = new MaximumProduct();
+Console.WriteLine("--------------- Pair of maximum product in array of integers ------------------------");
+mp.FindMax([1,4,3,6,7,0]);
+
 static int val(ref int b)
 {
     b = 10;
