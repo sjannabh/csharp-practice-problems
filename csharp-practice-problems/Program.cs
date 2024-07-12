@@ -354,6 +354,11 @@ charCountOcc.countOccurence("geeksforgeeks");
 UncommonCharacters uncommonCharacters = new UncommonCharacters();
 Console.WriteLine("-------------- Find uncommon characters of two strings -----------------");
 uncommonCharacters.printUncommonChar("characters", "alphabets");
+
+//Remove all consecutive duplicates from the string
+RemoveConsecutiveDuplicates remove = new RemoveConsecutiveDuplicates();
+Console.WriteLine("-------------------- Remove consecutive duplicates -----------------------");
+remove.remConDupl("geeks for test");
 static int val(ref int b)
 {
     b = 10;
