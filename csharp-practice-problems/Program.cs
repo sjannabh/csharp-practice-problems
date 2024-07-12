@@ -385,6 +385,11 @@ SolidAndHollowSquare sh = new SolidAndHollowSquare();
 Console.WriteLine("-------------- Solid and Hollow Patterns ---------------------");
 sh.sAndh(4);
 
+//Print Right triangle star pattern
+RightTriangle rt = new RightTriangle();
+Console.WriteLine("--------- Print Right Triangle start pattern -------------------");
+rt.printRightTriangle(5);
+
 static int val(ref int b)
 {
     b = 10;
