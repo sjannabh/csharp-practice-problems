@@ -359,6 +359,11 @@ uncommonCharacters.printUncommonChar("characters", "alphabets");
 RemoveConsecutiveDuplicates remove = new RemoveConsecutiveDuplicates();
 Console.WriteLine("-------------------- Remove consecutive duplicates -----------------------");
 remove.remConDupl("geeks for test");
+
+//Replace 0's with 5
+ReplaceDigit repDigit = new ReplaceDigit();
+Console.WriteLine("--------------- Replace all 0's with 5 --------------------");
+Console.WriteLine(repDigit.replace(1050));
 static int val(ref int b)
 {
     b = 10;
