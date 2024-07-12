@@ -410,6 +410,11 @@ DoubleTheSearchElement dSearch = new DoubleTheSearchElement();
 Console.WriteLine("---------------- Repeatedly search an element by doubling it after every successful search --------");
 dSearch.FindElement([1, 2,16,3,4,8]);
 
+//Find all factorial numbers less than or equal to n
+FactorialLessThanNumber factorialNum = new FactorialLessThanNumber();
+Console.WriteLine("------------------- Find all factorial numbers less than or equal to number --------------");
+factorialNum.FindFact(1500);
+
 static int val(ref int b)
 {
     b = 10;
