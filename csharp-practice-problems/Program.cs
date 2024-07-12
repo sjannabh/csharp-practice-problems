@@ -395,6 +395,11 @@ MaximumProduct mp = new MaximumProduct();
 Console.WriteLine("--------------- Pair of maximum product in array of integers ------------------------");
 mp.FindMax([1,4,3,6,7,0]);
 
+//Check if a number is a power of another number
+NumberIsPowerOfAnotherNumber np = new NumberIsPowerOfAnotherNumber();
+Console.WriteLine("---------------------- Check if a number is a power of another number -----------------------");
+Console.WriteLine(np.isPower(10, 1) ? "1" : "0");
+
 static int val(ref int b)
 {
     b = 10;
