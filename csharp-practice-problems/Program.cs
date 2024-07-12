@@ -370,6 +370,11 @@ OddTimesOccurence odd = new OddTimesOccurence();
 Console.WriteLine("------------- Find the number occurring odd number of times -------------------");
 odd.oddTimes([5,7,2,7,5,2,5]);
 
+//Find the Earliest Repeating Character
+EarliestRepeatingCharacter ear = new EarliestRepeatingCharacter();
+Console.WriteLine("----------------- Find the earliest repeating character ----------------");
+ear.getEarliest("getup eat");
+
 static int val(ref int b)
 {
     b = 10;
