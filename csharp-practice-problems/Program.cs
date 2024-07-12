@@ -364,6 +364,12 @@ remove.remConDupl("geeks for test");
 ReplaceDigit repDigit = new ReplaceDigit();
 Console.WriteLine("--------------- Replace all 0's with 5 --------------------");
 Console.WriteLine(repDigit.replace(1050));
+
+//Find the number occurring odd number of times
+OddTimesOccurence odd = new OddTimesOccurence();
+Console.WriteLine("------------- Find the number occurring odd number of times -------------------");
+odd.oddTimes([5,7,2,7,5,2,5]);
+
 static int val(ref int b)
 {
     b = 10;
