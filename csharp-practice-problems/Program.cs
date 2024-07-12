@@ -436,6 +436,12 @@ ArraySortedOrNot arrSorted = new ArraySortedOrNot();
 Console.WriteLine("-------------- Check if the array is sorted or not ---------------");
 Console.WriteLine(arrSorted.IsSorted([20, 21, 45, 89, 90]) ? "Array is sorted" : "Array is not sorted");
 Console.WriteLine(arrSorted.IsSorted([20, 20,78,98,99,97]) ? "Array is sorted" : "Array is not sorted");
+
+//GCD of two integers
+GCD gcd = new GCD();
+Console.WriteLine("---------- Greastest COmmon DIvisor of two numbers ------------------");
+Console.WriteLine("Greatest Common Divisor is: "+gcd.res(36, 60));
+
 static int val(ref int b)
 {
     b = 10;
