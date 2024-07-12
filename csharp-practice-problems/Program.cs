@@ -431,6 +431,11 @@ Console.WriteLine("------------------- Union and Intersection of two unsorted ar
 unionIntersection.FindUnion([7, 1, 5, 2, 3, 6], [3, 8, 6, 20, 7]);
 unionIntersection.FindIntersection([7, 1, 5, 2, 3, 6], [3, 8, 6, 20, 7]);
 
+//Array sorted or not
+ArraySortedOrNot arrSorted = new ArraySortedOrNot();
+Console.WriteLine("-------------- Check if the array is sorted or not ---------------");
+Console.WriteLine(arrSorted.IsSorted([20, 21, 45, 89, 90]) ? "Array is sorted" : "Array is not sorted");
+Console.WriteLine(arrSorted.IsSorted([20, 20,78,98,99,97]) ? "Array is sorted" : "Array is not sorted");
 static int val(ref int b)
 {
     b = 10;
