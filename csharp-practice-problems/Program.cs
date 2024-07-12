@@ -425,6 +425,12 @@ avg.PrintAvgStream([10, 20, 30, 40, 51, 60]);
 Console.WriteLine("-------------- Square root of an integer -------------");
 Console.WriteLine((int)Math.Sqrt(11));
 
+//Find Union and Intersection of two unsorted arrays
+UnionAndIntersectionOfArrays unionIntersection = new UnionAndIntersectionOfArrays();
+Console.WriteLine("------------------- Union and Intersection of two unsorted arrays --------------------");
+unionIntersection.FindUnion([7, 1, 5, 2, 3, 6], [3, 8, 6, 20, 7]);
+unionIntersection.FindIntersection([7, 1, 5, 2, 3, 6], [3, 8, 6, 20, 7]);
+
 static int val(ref int b)
 {
     b = 10;
