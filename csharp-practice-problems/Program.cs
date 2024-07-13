@@ -459,6 +459,12 @@ Console.WriteLine("----------------- Perfect Square ----------------");
 Console.WriteLine((Math.Ceiling(Math.Sqrt(2500)) == Math.Floor(Math.Sqrt(2500)) ? "Perfect Square" : "Not Perfect Square"));
 Console.WriteLine((Math.Ceiling(Math.Sqrt(2555)) == Math.Floor(Math.Sqrt(2555)) ? "Perfect Square" : "Not Perfect Square"));
 
+//Minimum Difference of Maximum and Minimum of k array elements
+MimimumPossibleValue min = new MimimumPossibleValue();
+Console.WriteLine("---------- Minimum Difference of Maximum and Minimum of k array elements ----------------");
+min.minDiff([10, 100, 300, 200, 1000, 20, 30], 3);
+
+
 static int val(ref int b)
 {
     b = 10;
