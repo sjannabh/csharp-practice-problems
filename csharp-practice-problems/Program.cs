@@ -452,6 +452,12 @@ Console.WriteLine("Fascinating Number: " + fascinating.IsFascinating(192));
 XOROfAdjacentElements xor = new XOROfAdjacentElements();
 Console.WriteLine("---------------------- XOR of adjacent elements of the array ------------------");
 xor.xorOfElements([10, 11, 1, 2, 3]);
+Console.WriteLine();
+
+//Perfect Square
+Console.WriteLine("----------------- Perfect Square ----------------");
+Console.WriteLine((Math.Ceiling(Math.Sqrt(2500)) == Math.Floor(Math.Sqrt(2500)) ? "Perfect Square" : "Not Perfect Square"));
+Console.WriteLine((Math.Ceiling(Math.Sqrt(2555)) == Math.Floor(Math.Sqrt(2555)) ? "Perfect Square" : "Not Perfect Square"));
 
 static int val(ref int b)
 {
