@@ -448,6 +448,11 @@ Console.WriteLine("----------- Facinating Number ------------------");
 Console.WriteLine("Fascinating Number: " + fascinating.IsFascinating(853));
 Console.WriteLine("Fascinating Number: " + fascinating.IsFascinating(192));
 
+//XOR of adjacent elements
+XOROfAdjacentElements xor = new XOROfAdjacentElements();
+Console.WriteLine("---------------------- XOR of adjacent elements of the array ------------------");
+xor.xorOfElements([10, 11, 1, 2, 3]);
+
 static int val(ref int b)
 {
     b = 10;
