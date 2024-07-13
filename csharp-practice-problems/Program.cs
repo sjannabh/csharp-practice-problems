@@ -442,6 +442,12 @@ GCD gcd = new GCD();
 Console.WriteLine("---------- Greastest COmmon DIvisor of two numbers ------------------");
 Console.WriteLine("Greatest Common Divisor is: "+gcd.res(36, 60));
 
+//Fascinating Number
+FascinatingNumber fascinating = new FascinatingNumber();
+Console.WriteLine("----------- Facinating Number ------------------");
+Console.WriteLine("Fascinating Number: " + fascinating.IsFascinating(853));
+Console.WriteLine("Fascinating Number: " + fascinating.IsFascinating(192));
+
 static int val(ref int b)
 {
     b = 10;
