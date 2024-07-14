@@ -466,6 +466,13 @@ Console.WriteLine((Math.Ceiling(Math.Sqrt(2555)) == Math.Floor(Math.Sqrt(2555)) 
 MimimumPossibleValue min = new MimimumPossibleValue();
 Console.WriteLine("---------- Minimum Difference of Maximum and Minimum of k array elements ----------------");
 min.minDiff([10, 100, 300, 200, 1000, 20, 30], 3);
+Console.WriteLine();
+
+BinaryRepresentation binary = new BinaryRepresentation();
+Console.WriteLine("---------------- Binary Representation of a number --------------------------");
+binary.bin(7);
+Console.WriteLine();
+binary.bin(8);
 
 
 static int val(ref int b)
