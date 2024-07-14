@@ -148,6 +148,9 @@ largestNumberAmongThree.largestNum(8, 10, 50);
 LowerCaseToUpperCase lowerCaseToUpperCase = new LowerCaseToUpperCase();
 Console.WriteLine("-------------- Lowercase to Uppercase String -------------");
 lowerCaseToUpperCase.lowerToUpper("GeeksForGeeks");
+lowerCaseToUpperCase.lowToUp("GeeksForGeeks");
+lowerCaseToUpperCase.lowerToUp("GeeksForGeeks");
+lowerCaseToUpperCase.lowToUpper("GeeksForGeeks");
 
 //Multiply all the elements in the given array
 MultiplyElementsOfArray multiplyElementsOfArray = new MultiplyElementsOfArray();
