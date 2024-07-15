@@ -468,11 +468,19 @@ Console.WriteLine("---------- Minimum Difference of Maximum and Minimum of k arr
 min.minDiff([10, 100, 300, 200, 1000, 20, 30], 3);
 Console.WriteLine();
 
+//binary representation of a number
 BinaryRepresentation binary = new BinaryRepresentation();
 Console.WriteLine("---------------- Binary Representation of a number --------------------------");
 binary.bin(7);
 Console.WriteLine();
 binary.bin(8);
+
+//Check whether the array is perfect or not
+ArrayIsPerfectOrNot perfect = new ArrayIsPerfectOrNot();
+Console.WriteLine("----------- Check whether the given array is perfect or not --------------------");
+Console.WriteLine(perfect.IsPerfect([1, 8, 8, 8, 3, 2]));
+Console.WriteLine(perfect.IsPerfect([1,1,2,2,1]));
+
 
 
 static int val(ref int b)
